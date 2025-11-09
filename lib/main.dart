@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:forui/forui.dart';
-import 'features/auth/login-screen.dart'; // <-- import your register screen
+import 'features/auth/login_screen.dart'; // <-- import your register screen
 
 void main() {
   runApp(Application());
