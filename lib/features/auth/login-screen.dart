@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'register-screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -236,7 +237,12 @@ class _LoginScreenState extends State<LoginScreen> {
                         text: 'Create New Account',
                         onPressed: () {
                           // Navigate to register screen
-                          // Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterScreen()));
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const RegisterScreen(),
+                            ),
+                          );
                         },
                         isPrimary: false,
                       ),
