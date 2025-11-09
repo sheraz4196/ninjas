@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:forui/forui.dart';
 
 void main() {
-  runApp(const Application());
+  runApp(Application());
 }
 
 class Application extends StatelessWidget {
